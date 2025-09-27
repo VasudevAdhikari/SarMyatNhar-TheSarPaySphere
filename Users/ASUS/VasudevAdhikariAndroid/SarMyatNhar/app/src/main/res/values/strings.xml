@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SarMyatNhar</string>
+    <string name="go_to_login_text"><i><u>Already Registered? Login</u></i></string>
+    <string name="go_to_register_text"><i><u>Not Registered Yet? Register</u></i></string>
+</resources>

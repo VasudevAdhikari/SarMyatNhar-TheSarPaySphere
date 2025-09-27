@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img_sarmyathnar"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SignUpForm"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.admin.activities.AdminBookDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.activities.UsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.WriterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.LibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.CategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.BookDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.CoinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.CoinRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.UserMonetizationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.BookApprovalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.activities.HomeActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ui.activities.BookListActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ui.activities.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activities.LoginActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ui.activities.RegisterActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+        </activity>
+    </application>
+
+</manifest>
